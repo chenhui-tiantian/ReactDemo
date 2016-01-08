@@ -1,0 +1,28 @@
+.nav {
+  height: 100%;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  background-color: #2B2B2B;
+  width: 48px;
+}
+
+.nav ul li {
+  color : #AAAAAA;
+  padding: 12px;
+  cursor: pointer;
+  transition: color .2s linear;
+}
+
+.nav ul li:hover {
+  color: white;
+}
+
+.nav ul li.active {
+  background-color: #4C4C4C;
+}
+

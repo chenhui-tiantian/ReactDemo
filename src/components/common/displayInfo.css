@@ -1,0 +1,79 @@
+.info{
+  display: flex;
+  margin: 5px;
+  min-height: 50px;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  border-color: #E0E0E0;
+  border-width: 1px;
+  border-left-style: groove;
+  border-top-style: groove;
+  border-right-style: groove;
+  border-bottom-style: groove;
+  border-radius: 5px;
+}
+.info .infoTitle{
+  display: flex;
+  min-height: 13px;
+  max-height: 20px;
+  -webkit-flex: 1 1 20%;
+  flex: 1 1 20%;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  order: 1;
+  justify-content: space-around;
+  align-items: center;
+  background-color: inherit;
+  border-color: #E0E0E0;
+  border-width: 2px;
+  border-bottom-style: groove;
+  border-radius: 5px;
+}
+.infoDataArea{
+  display: flex;
+  min-height: 30px;
+  -webkit-flex: 1 1 80%;
+  flex: 1 1 80%;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  order: 2;
+  overflow-y: auto;
+}
+.info .infoData{
+  display: flex;
+  min-height: 15px;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.info .infoData .infoDataLabel{
+  display: flex;
+  min-height: 15px;
+  -webkit-flex: 1 1 30%;
+  flex: 1 1 30%;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  order: 1;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.info .infoData .infoDataText{
+  display: flex;
+  min-height: 15px;
+  -webkit-flex: 1 1 70%;
+  flex: 1 1 70%;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  order: 2;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+}

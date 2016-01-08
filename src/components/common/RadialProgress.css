@@ -1,0 +1,124 @@
+
+.background {
+  fill: #FFFFFF;
+  fill-opacity: 0.01;
+}
+
+.component {
+  fill: #C9C3C3;
+}
+
+.component .label {
+  font-family: Myriad, "Helvetic Neue", Helvetica, Arial;
+  text-anchor: middle;
+  fill: #0000FF;
+}
+
+.arc {
+  stroke-weight:0.1;
+  fill: #4e8fff;
+}
+
+
+.arc2 {
+  stroke-weight:0.1;
+  fill: #b00d08;
+  fill: #3660b0;
+}
+
+
+.label {
+  font-family:  Myriad, "Helvetic Neue", Helvetica, Arial;
+  text-anchor: middle;
+}
+
+.radial-svg {
+  display: block;
+  margin: 0 auto;
+}
+
+
+#test .arc2 {
+  stroke-weight:0.1;
+  fill: #3660b0;
+}
+
+#outer {
+  background:#FFFFFF;
+  border-radius: 5px;
+  color: #000;
+}
+
+#drawChart{
+  box-sizing: border-box;
+  float: left;
+  border-radius: 5px;
+  width: 100%;
+}
+/* 数值在正常范围内的展示 */
+.origin .arc {
+  stroke-weight: 0.1;
+  fill: rgb(74, 210, 133);
+}
+/* 超出正常数值时，图表展示 */
+.overData .arc {
+  stroke-weight: 0.1;
+  fill: #dd2b0b;
+}
+
+.overData .arc2 {
+  stroke-weight: 0.8;
+  fill: #cc020f;
+}
+
+.showComtents{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.comtent{
+  width: 100px;
+  background-color: #000088;
+  font: 10px sans-serif;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+/* used chart comtent */
+.userchart{
+  height: 230px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 5px;
+  width: 280px;
+  background-color: #FCFCFC;
+}
+.userchart .title{
+  margin: 10px 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.comtentdiv{
+  text-align: center;
+  float: left;
+  /*height: 120px;*/
+  width: 100%;
+  /*margin: 20px 0;*/
+}
+.comtentdiv .remain{
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+.comtentdiv .totalTxt{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.comtentdiv .useTxt{
+  float: left;
+  width: 50%;
+  text-align: center;
+}

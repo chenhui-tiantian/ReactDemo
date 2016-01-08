@@ -1,0 +1,119 @@
+.accounts {
+  /*display: flex;*/
+  /*flex-direction: row;*/
+
+}
+
+.virtualOrganization {
+  display: flex;
+  flex: 1 1 27%;
+  flex-direction: column;
+}
+
+.virtualOrganization .modify {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+.virtualOrganization .modify .add {
+  width: 50px;
+  float: right;
+  clear: right;
+}
+
+.virtualOrganization .modify .mod {
+  width: 50px;
+  float: right;
+}
+
+.virtualOrganization .modify .del {
+  width: 50px;
+  float: right;
+}
+
+.virtualOrganization .search {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+.virtualOrganization .list {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+.addRole {
+  display: flex;
+  flex-flow: column;
+}
+.addRole .name{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.addRole .organize{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.addRole .scope{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.addRole .ldap {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.virtualOrganization .list {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+.addRole {
+  display: flex;
+  flex-flow: column;
+}
+.addRole .name{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.addRole .organize{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.addRole .scope{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.addRole .ldap{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.roledetails-content{
+  max-height:500px;
+  overflow-y: auto;
+}
+
+.roledetails-content ul{
+  list-style: none;
+}
+.roledetails-content ul li{
+  padding-left: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+.roledetails-content ul .newli{
+ font-weight: 600;
+  margin-top:20px;
+  margin-bottom:5px;
+}

@@ -1,0 +1,54 @@
+.statusDialog{
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  overflow-y: visible;
+  background-color: transparent;
+}
+.statusDialog .hideDialog{
+  display: none;
+}
+.statusDialog .showDialog{
+  display: flex;
+}
+.statusDialog .msgBox{
+  display: flex;
+  flex-direction:column;
+  -webkit-flex-direction:column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 180px;
+  height: 80px;
+  overflow: hidden;
+  position: absolute;
+  border-width: thin;
+  border-color: black;
+  border-style: groove;
+  border-radius: 10px;
+  right: 3px;
+}
+.failBox{
+  background-color: #dc292c;
+  opacity: 0.6;
+}
+.failBox:hover{
+  background-color: #dc292c;
+  opacity: 1;
+}
+.successBox{
+  background-color: #29C3DC;
+  opacity: 0.4;
+}
+.successBox:hover{
+  background-color: #29C3DC;
+  opacity: 1;
+}
+.hideMsg{
+  opacity: 0;
+  transition: opacity 850ms;
+  -webkit-transition: opacity 850ms;
+}
+.hideMsg:hover{
+  opacity: 1;
+
+}

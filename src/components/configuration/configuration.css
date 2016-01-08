@@ -1,0 +1,52 @@
+.configlist{
+  max-height:500px;
+  overflow-y: auto;
+}
+
+.configlist  li{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  height: 40px;
+  align-items: flex-end;
+
+}
+
+.configlist  li .dis{
+	float: left;
+	clear: left;
+	width: 300px;
+  text-align: right;
+}
+.configlist li .itemValue{
+	float: left;
+	width: 300px;
+  height: 30px;
+  /*margin-bottom:5px;*/
+}
+
+.configlist  .newli{
+  float: left;
+  clear: left;
+  width: 100%;
+  font-weight: 600;
+  margin-top:20px;
+  margin-bottom:5px;
+}
+.addlicense{
+ float: left;
+  width: 100%;
+}
+.createBackup{
+  float: left;
+  width: 100%;
+}
+.backupList{
+  float: left;
+  width: 100%;
+}
+.configurationcontainer{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}

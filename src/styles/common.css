@@ -1,0 +1,69 @@
+/*锟斤拷锟斤拷使锟矫的憋拷签锟斤拷式*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+/*font: inherit;*/
+vertical-align: baseline;
+}
+
+
+.icon-aed{
+  padding: 5px;
+  margin: 0 8px;
+  float:right;
+}
+.icon-aed .icon-add{
+  width: 16px;
+  height: 18px;
+  background-image: url(./img/ui-icons_256x240.png);
+  background-position: -16px -128px;
+}
+.icon-aed .icon-edit{
+  width: 16px;
+  height: 18px;
+  background-image: url(./img/ui-icons_256x240.png);
+  background-position: -64px -112px;
+}
+.icon-aed .icon-del{
+  width: 16px;
+  height: 18px;
+  background-image: url(./img/ui-icons_256x240.png);
+  background-position: -176px -96px;
+}
+
+
+.icon-refresh{
+  width: 16px;
+  height: 18px;
+  background-image: url(./img/ui-icons_256x240.png);
+  background-position: -16px -128px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea,
+fieldset {
+  /* required to properly style form
+     elements on WebKit based browsers */
+  -webkit-appearance: none;
+  width : 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+input:focus:invalid {
+  outline: none;
+}

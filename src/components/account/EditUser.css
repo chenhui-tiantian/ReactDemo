@@ -1,0 +1,23 @@
+.editUser{
+  display: flex;
+  flex-direction: row;
+}
+.userForm{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+  order: 1;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.userForm .formEntry{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.showVDCs{
+  flex: 1 1 50%;
+  order: 2;
+}

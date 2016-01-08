@@ -1,0 +1,94 @@
+.list{
+  height: 500px;
+}
+.template-gategory{
+  width: 28%;
+  float: left;
+  min-height: 560px;
+  background: #fafafa;
+}
+.template-gategory .template-gategory-header{
+
+}
+.template-gategory .template-gategory-header h4{
+
+  padding: 0px 15px;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+.template-gategory .template-gategory-list{
+  clear: both;
+  max-height: 590px;
+  overflow-y:auto;
+}
+.template-virtual{
+  height: 100%;
+  width: 70%;
+  float: left;
+  /*max-height: 560px;*/
+  background: #F7F7F7;
+  margin-left: 10px;
+
+}
+.template-virtual .template-virtual-header{
+
+}
+.template-virtual .template-virtual-header h4{
+  padding: 0px 15px;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+.template-virtual .template-virtual-content{
+  clear: both;
+  max-height: 590px;
+  overflow-y:auto;
+}
+
+.loadtm-dialog-left{
+  width: 33%;
+  float:left;
+  border: 1px solid #ccc;
+  min-height: 340px;
+  max-height: 340px;
+}
+.loadtm-dialog-left .loadtm-dialog-left-hear{
+  height:35px;
+}
+.loadtm-dialog-left .loadtm-dialog-left-hear h5{
+  height: 35px;
+  padding-left: 10px;
+  line-height: 35px;
+  float: left;
+}
+/*.loadtm-dialog-left .loadtm-dialog-left-hear .loadtm-dialog-left-button{*/
+  /*padding-top: -35px;*/
+/*}*/
+.loadtm-dialog-left .loadtm-dialog-left-hear .loadtm-dialog-left-content{
+  width: 100%;
+  height: 100%;
+  background:pink;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.loadtm-dialog-right{
+  width: 65%;
+  float: right;
+  border: 1px solid #ccc;
+}
+.loadtm-dialog-right .loadtm-dialog-right-hear{
+  height:35px;
+  margin-botton:10px;
+}
+.loadtm-dialog-right .loadtm-dialog-right-hear h5{
+  height: 35px;
+  padding-left: 10px;
+  line-height: 35px;
+  float: left;
+}
+.loadtm-dialog-right h5{
+  height: 35px;
+  padding-left: 10px;
+  line-height: 35px;
+}

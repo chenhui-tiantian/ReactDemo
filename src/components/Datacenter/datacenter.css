@@ -1,0 +1,208 @@
+/*!
+ *
+ *  React Simpletabs - Just a simple tabs component built with React
+ *  @version v0.7.0
+ *  @link https://github.com/pedronauck/react-simpletabs
+ *  @license MIT
+ *  @author Pedro Nauck (https://github.com/pedronauck)
+ *
+ */
+
+.tabs-menu {
+  display: table;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs-menu-item {
+  float: left;
+  margin-right: 20px;
+}
+
+.tabs-menu-item a {
+  cursor: pointer;
+  display: block;
+  color: #A9A9A9;
+}
+
+.tabs-menu-item:not(.is-active) a:hover,
+.tabs-menu-item.is-active a {
+  color: #3498DB;
+}
+
+.tab-panel {
+  padding: 5px;
+  height:100%;
+}
+
+.network {
+  width: 100%;
+  height: 100%;
+
+}
+
+.network.network-head {
+  height: 40px;
+  width: 100%;
+}
+
+.network .network-body {
+
+}
+
+.network .network-tree {
+  float: left;
+  color: blue;
+  width: 30%;
+}
+
+.network .network-table {
+  width: 66%;
+  float: left;
+  margin: 0 23px;
+}
+
+.datacenterOverView {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.datacentermanage {
+  float: left;
+  background: #e9ecf1;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  /*margin-bottom: 16px;*/
+  height: 100%;
+  width: 256px;
+  position: relative;
+}
+
+.datacentermanage .datacenter-left-head {
+  /*background-color: #e5e5e5;*/
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#e5e5e5));*/
+  /*background-image: -webkit-linear-gradient(top, #ebebeb, #e5e5e5);*/
+  /*background-image: -moz-linear-gradient(top, #ebebeb, #e5e5e5);*/
+  /*background-image: -o-linear-gradient(top, #ebebeb, #e5e5e5);*/
+  /*background-image: -ms-linear-gradient(top, #ebebeb, #e5e5e5);*/
+  /*background-image: linear-gradient(to bottom, #ebebeb, #e5e5e5);*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ebebeb', EndColorStr='#e5e5e5');*/
+  border-top: 1px solid #fafafa;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  height: 40px;
+}
+
+.datacentermanage .datacenter-left-head h1 {
+  float: left;
+  /*font-family: "Tahoma", "Lucida Grande", sans-serif;*/
+  /*font-size: 14px;*/
+  font-weight: bold;
+  line-height: 40px;
+  padding-left: 14px;
+  text-shadow: 0 1px 0 #fff;
+  text-transform: uppercase;
+}
+
+.datacentercontainer {
+  margin-left: 265px;
+  height: 100%;
+  background: #EEEEEE;
+  /*background-color: #DEE2E4;*/
+}
+
+.virtualOrganization .modify .del {
+  width: 50px;
+  float: right;
+}
+
+.virtualOrganization .search {
+  float: left;
+  clear: left;
+}
+
+.machine {
+  width: 100%;
+}
+
+.machine .machine-list {
+  width: 28%;
+  float: left;
+  min-height: 560px;
+  background: #fafafa;
+  padding:0px 15px;
+}
+
+.machine .machine-list .host-head h4 {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+.machine .machine-content {
+  height: 100%;
+  width: 70%;
+  float: left;
+  min-height: 560px;
+  background: #F7F7F7;
+  margin-left: 10px;
+  padding:0px 15px;
+}
+
+.machine .machine-content .host-head h4 {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+.machine .machine-content .host-head .search {
+  clear: both;
+}
+
+.machine .machine-content .host-head h4 {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+.machine .machine-content .host-head .search {
+  clear: both;
+}
+
+.globalrules {
+  float: right;
+  width: 100%;
+  height: 100%;
+}
+
+.globalrules .fitPolicyRules {
+  width: 100%;
+  float: left;
+  clear: left;
+  background-color: rgb(195, 205, 207);
+  border-radius: 5px;
+}
+
+.globalrules .controlButtons {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+.globalrules .rulelist {
+  width: 100%;
+  float: left;
+  clear: left;
+  height: 100%;
+}
+
+.overview{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}

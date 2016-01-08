@@ -1,0 +1,25 @@
+.networkPage {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+
+.networkPage .dropDownMenu {
+  min-height: 15px;
+  /*max-height: 30px;*/
+  -webkit-flex: 1 3 10%;
+  flex: 1 3 10%;
+  -webkit-order: 1;
+  order: 1;
+}
+
+.networkPage .networkContent {
+  -webkit-flex: 3 1 90%;
+  flex: 3 1 90%;
+  -webkit-order: 2;
+  order: 2;
+}

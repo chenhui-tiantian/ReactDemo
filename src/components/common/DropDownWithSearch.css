@@ -1,0 +1,75 @@
+/* The container <div> - needed to position the dropdown content */
+.dropDownWithSearch {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+/* Style The Dropdown Button */
+.dropDownWithSearch .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  overflow-x: hidden;
+  order: 1;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropDownWithSearch-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  order: 2;
+  z-index: 11;
+}
+.dropDownWithSearch-content input{
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 11;
+}
+
+.dropDownWithSearch-content div{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100px;
+  flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  overflow-y: auto;
+  margin-top: 5px;
+  z-index: 11;
+}
+
+/* Links inside the dropdown */
+.dropDownWithSearch-content div li {
+  color: black;
+  margin-bottom: 3px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropDownWithSearch-content div li:hover {
+  background-color: rgba(15, 225, 150, 1)
+}
+
+.dropDownWithSearch-content div li[data-selected='selected'] {
+  background-color: #2b2922;
+}
+
+.dropDownWithSearch:hover .dropDownWithSearch-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  order: 2;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropDownWithSearch:hover .dropbtn {
+  background-color: #3e8e41;
+  order: 1;
+}

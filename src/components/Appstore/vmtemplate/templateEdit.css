@@ -1,0 +1,43 @@
+.editTemplate{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 45%;
+}
+.editTemplate .entry{
+  display: flex;
+  min-height: 15px;
+  -webkit-flex: 1 1 auto;
+  flex: 1 1 auto;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.editTemplate .entry .entryLabel{
+  display: flex;
+  min-height: 15px;
+  -webkit-flex: 1 1 35%;
+  flex: 1 1 35%;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  order: 1;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.editTemplate .entry .entryInput{
+  display: flex;
+  min-height: 15px;
+  -webkit-flex: 1 1 65%;
+  flex: 1 1 65%;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  order: 2;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+}

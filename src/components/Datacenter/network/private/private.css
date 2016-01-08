@@ -1,0 +1,93 @@
+.networkPrivate{
+  min-height: 600px;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+}
+.networkPrivate .vlan{
+  background: #FAFAFA;
+  display: flex;
+  min-width: 100px;
+  -webkit-flex: 1 2 28%;
+  flex: 1 2 28%;
+  -webkit-order: 1;
+  order: 1;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+.networkPrivate .vlan h5{
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.networkPrivate .ips{
+  background: #FAFAFA;
+  margin-left: 10px;
+  padding: 0px 15px;
+  display: flex;
+  min-width: 300px;
+  -webkit-flex: 1 1 70%;
+  flex: 1 1 70%;
+  -webkit-order: 2;
+  order: 2;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+.networkPrivate .ips h5{
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+.networkPrivate .ips .search{
+  display: flex;
+  min-height: 70px;
+  max-height: 75px;
+  -webkit-flex: 1 1 10%;
+  flex: 1 1 10%;
+  -webkit-order: 1;
+  order: 1;
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+.networkPrivate .ips .pagination{
+  min-height: 15px;
+  max-height: 40px;
+  -webkit-flex: 1 1 10%;
+  flex: 1 1 10%;
+  -webkit-order: 3;
+  order: 3;
+}
+.networkPrivate .ips .data{
+  -webkit-flex: 6 1 80%;
+  flex: 6 1 80%;
+  -webkit-order: 2;
+  order: 2;
+}
+.networkPrivate .vlan .search{
+  display: flex;
+  min-height: 70px;
+  max-height: 75px;
+  -webkit-flex: 1 5 10%;
+  flex: 1 5 10%;
+  -webkit-order: 1;
+  order: 1;
+  flex-direction:row;
+  -webkit-flex-direction:row;
+}
+.networkPrivate .vlan .info{
+  min-height: 15px;
+  -webkit-flex: 3 4 30%;
+  flex: 3 4 30%;
+  -webkit-order: 3;
+  order: 3;
+}
+.networkPrivate .vlan .data{
+  -webkit-flex: 0 1 60%;
+  flex: 0 1 60%;
+  -webkit-order: 2;
+  order: 2;
+  overflow-y: auto;
+}
